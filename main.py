@@ -31,7 +31,7 @@ elif user_choice == "2":
   initial_investment = float(input("How Much Are You Investing In the Stock Market "))
   time = float(input("For How Long Are you Planning To Invest For (Years) "))
   ammount_of_investment = initial_investment * ((1 + 10/100) ** time) - initial_investment
-  print("You Gained " + "$" + str(ammount_of_investment))
+  print("You gained " + "$" + str(ammount_of_investment))
 
   
 else:
